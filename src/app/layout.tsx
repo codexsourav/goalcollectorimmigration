@@ -1,8 +1,9 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Cormorant, Inter } from "next/font/google";
 import "./globals.css";
+import "react-multi-carousel/lib/styles.css";
 
-const inter = Inter({ subsets: ["latin"] });
+const inter = Cormorant({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Create Next App",
