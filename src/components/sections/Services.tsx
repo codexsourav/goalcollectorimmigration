@@ -16,7 +16,7 @@ function Services() {
         <div className=" grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-8 ">
           {Array.from({ length: 4 }).map((_, i) => (
             <div
-              className="w-full shadow-xl bg-white p-8 group hover:bg-blue-200 transition-all"
+              className="w-full shadow-xl bg-white p-8 group hover:bg-blue-50 transition-all"
               key={i + "-service"}
             >
               <Image

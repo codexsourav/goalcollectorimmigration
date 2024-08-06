@@ -6,15 +6,15 @@ function ApplyNowInfo() {
   return (
     <div className="container grid lg:grid-cols-2 gap-5 py-20">
       <Image
-        src="https://assets.website-files.com/6350d54c8bd992f0aeb521cf/6356522c41400ea6add3fbe6_1.png"
-        width={1200}
-        height={1200}
+        src="https://www.goalcollectorimmigration.com/images/g10.jpg"
+        width={2200}
+        height={2200}
         alt=""
         className="w-full lg:h-[550px] h-96 object-cover"
       />
       <div className="w-full lg:h-[550px] flex flex-col justify-between  ">
         <div className="w-full h-full bg-blue-900 bg-thumb bg-cover bg-center bg-no-repeat p-10">
-          <h1 className="text-5xl font-bold text-white uppercase">
+          <h1 className="md:text-5xl text-3xl font-bold text-white uppercase">
             take your 1st step to good career with us
           </h1>
           <Button className="rounded-none bg-white text-blue-950 w-40 h-14 text-xl mt-10 hover:text-white">

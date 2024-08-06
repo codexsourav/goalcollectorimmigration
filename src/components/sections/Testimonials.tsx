@@ -15,11 +15,11 @@ const responsive = {
     items: 3,
   },
   tablet: {
-    breakpoint: { max: 1024, min: 464 },
+    breakpoint: { max: 1024, min: 664 },
     items: 2,
   },
   mobile: {
-    breakpoint: { max: 464, min: 0 },
+    breakpoint: { max: 664, min: 0 },
     items: 1,
   },
 };
@@ -37,7 +37,7 @@ function Testimonials() {
       <div className="mt-11">
         <Carousel
           responsive={responsive}
-          itemClass="h-96 px-3"
+          itemClass="h-96 md:px-3 px-1"
           arrows={false}
           className="cursor-grab"
           autoPlay={true}
@@ -46,7 +46,7 @@ function Testimonials() {
           {Array.from({ length: 5 }).map((_, i) => (
             <div
               key={i + "review"}
-              className="w-full h-full bg-white border select-none border-blue-50 overflow-hidden shadow-lg relative p-8  flex flex-col justify-between"
+              className="w-full h-full bg-white border select-none border-blue-50 overflow-hidden md:shadow-lg relative p-8  flex flex-col justify-between"
             >
               <p className="text-gray-900 text-xl line-clamp-6">
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit.

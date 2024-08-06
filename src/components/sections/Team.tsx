@@ -14,20 +14,20 @@ function Team() {
         {Array.from({ length: 4 }).map((_, i) => {
           return (
             <div
-              className="h-80  transition-all shadow-md  hover:shadow-xl  border-blue-50 bg-white w-full grid grid-cols-5"
+              className="md:h-80  transition-all shadow-md  hover:shadow-xl  border-blue-50 bg-white w-full grid md:grid-cols-5"
               key={i + "-team"}
             >
-              <div className="relative col-span-2 overflow-hidden">
+              <div className="relative md:col-span-2 overflow-hidden">
                 <Image
-                  width={1250}
-                  height={1250}
+                  width={2250}
+                  height={2250}
                   alt=""
-                  src="https://www.shutterstock.com/image-photo/young-handsome-man-beard-wearing-600nw-1768126784.jpg"
+                  src="https://www.goalcollectorimmigration.com/images/haseen.JPG"
                   className="object-cover w-full h-full"
                 />
-                <div className="h-full w-28  absolute z-10 top-0 right-0   -mr-[2px] bg-gradient-to-r from-transparent to-white"></div>
+                <div className="md:h-full w-full h-20 md:w-28  absolute z-10 md:top-0 bottom-0 right-0   md:-mr-[2px] md:bg-gradient-to-r bg-gradient-to-b from-transparent to-white"></div>
               </div>
-              <div className="col-span-3 p-10 relative overflow-hidden">
+              <div className="md:col-span-3 p-10 relative overflow-hidden">
                 <h1 className="text-4xl text-blue-900 font-bold">Hassen Meo</h1>
                 <p className="text-xl  mt-2 text-blue-500/60">
                   Director & co-Founder

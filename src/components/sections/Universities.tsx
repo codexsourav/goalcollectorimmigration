@@ -13,7 +13,7 @@ function Universities() {
       <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-10 mt-20">
         {Array.from({ length: 4 }).map((_, i) => (
           <div
-            className="h-[450px] w-full group relative pb-10 bg-white border border-blue-50 shadow-lg flex justify-between items-center flex-col"
+            className="h-[450px] w-full  group relative pb-10 bg-white border border-blue-50 shadow-lg flex justify-between items-center flex-col"
             key={i + "image-c"}
           >
             <div className="w-full h-56 overflow-hidden">
@@ -26,13 +26,15 @@ function Universities() {
               />
             </div>
 
-            <h1 className="text-2xl font-bold capitalize text-center text-blue-950">
-              belgorod state medical university
-            </h1>
-            <div className="w-24 h-[2px] group-hover:w-36 transition-all  bg-blue-800 rounded-full"></div>
-            <h1 className="font-bold uppercase text-xl text-blue-900">
-              russia
-            </h1>
+            <div className="flex justify-between items-center flex-col px-5 gap-6">
+              <h1 className="text-2xl font-bold capitalize text-center text-blue-950">
+                belgorod state medical university
+              </h1>
+              <div className="w-24 h-[2px] group-hover:w-36 transition-all  bg-blue-800 rounded-full"></div>
+              <h1 className="font-bold uppercase text-xl text-blue-900">
+                russia
+              </h1>
+            </div>
           </div>
         ))}
       </div>
